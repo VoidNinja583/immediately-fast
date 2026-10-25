@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "immediately_fast",
+  "version": "${version}",
+  "name": "Immediately Fast",
+  "description": "Client-side CPvP helpers with configurable toggles.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.immediatelyfast.ImmediatelyFastClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
